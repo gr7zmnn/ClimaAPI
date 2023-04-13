@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build, export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -52,4 +52,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
   }
+
 }
